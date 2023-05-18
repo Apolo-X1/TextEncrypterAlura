@@ -296,3 +296,91 @@ main {
         right: 105px;
     }
 }
+
+/* 750 */
+@media screen and (max-width: 750px) {
+    .section2 {
+        right: 50px;
+    }
+}
+
+/* 700 */
+@media screen and (max-width: 700px) {
+    .section2 {
+        right: 1px;
+    }
+}
+
+/* 656 */
+@media screen and (max-width: 656px) {
+    .section2 {
+        left: 40px;
+    }
+}
+
+/* 625 */
+@media screen and (max-width: 625px) {
+    .c-bottons {
+        top: 430px; 
+        left: 170px;
+    }
+
+    .section2 {
+        top: 600px;
+        left: 80px;
+    }
+}
+
+/* 548 */
+@media screen and (max-width: 548px) {
+    .alert {
+        display: none;
+    }
+
+    .section2 {
+        top: 600px;
+        left: 130px;
+    }
+}
+
+/* 500 */
+@media screen and (max-width: 500px) {
+    .alert {
+        display: none;
+    }
+    .c-muneco {
+        display: none;
+    }
+
+    .c-paragra {
+        padding-top: 300px;
+    }
+
+    .c-copy {
+        top: 690px;
+        left: 50px;
+        justify-content: center;
+    }
+}
+
+/* 400 */
+@media screen and (max-width: 400px) {
+    .section2 {
+        top: 600px;
+        left: 190px;
+    }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+    .section2 {
+        top: 600px;
+        left: 240px;
+    }
+
+    .c-copy {
+        top: 690px;
+        left: -41px;
+        justify-content: center;
+    }
+}

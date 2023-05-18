@@ -8,6 +8,72 @@ body {
     background: #161623;
 }
 
+.header-text{
+    font-size: 30px;
+    font-weight: 900px;
+    min-width: 280px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.header-text p{
+    color: white;
+}
+
+.header-text span{
+    position: relative;
+}
+
+.header-text span::before{
+    content: "Encryptor";
+    color: cyan;
+    animation: words 20s infinite;
+}
+
+.header-text span::after{
+    content: "";
+    background-color: #161623;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 2px solid red;
+    right: -8px;
+    animation: cursor .6s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 2px solid  cyan;
+    }
+}
+
+@keyframes words{
+    0%, 20%{
+        content: "Encryptor";
+    }
+    21%, 40%{
+        content: "HMTL";
+    }
+    41%, 60%{
+        content: "CSS";
+    }
+    61%, 80%{
+        content: "and";
+    }
+    81%, 100%{
+        content: "JavaScript";
+    }
+}
+
+@keyframes typing{
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 8px);
+    }
+}
+
 main {
     position: absolute;
     width: 100%;
@@ -373,6 +439,20 @@ main {
 
 /* 320 */
 @media screen and (max-width: 320px) {
+    .section2 {
+        top: 600px;
+        left: 240px;
+    }
+
+    .c-copy {
+        top: 690px;
+        left: -41px;
+        justify-content: center;
+    }
+}
+
+/* 274 */
+@media screen and (max-width: 274px) {
     .section2 {
         top: 600px;
         left: 240px;

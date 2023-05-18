@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    background: #161623;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.con-text {
+    position: absolute;
+    left: -40px;
+    top: 90px;
+    padding-left: 100px;
+    width: 1000px;
+    height: 600px;
+}
+
+.c-text {
+    width: 80%;
+    height: 100%;
+    border: none;
+    background: #D8DFE8;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.alert {
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    display: flex;
+    color: white;
+}
+
+.c-bottons {
+    position: absolute;
+    top: 730px;
+    padding-left: 110px;
+    padding-top: 15px;
+}
+
+.btn-encriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 900;
+    border: 1px solid #0A3871;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.section2 {
+    display: block;
+    position: relative;
+    top: 40px;
+    width: 400px;
+    height: 700px;
+    right: 25px;
+    padding-right: 20px;
+    background-color: #D8DFE8;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.c-muneco {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+.c-paragra {
+    font-weight: 200px;
+    font-size: 26px;
+    text-align: center;
+    color: #161623;
+    padding-top: 500px;
+}
+
+.c-paragra h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343A40;
+}
+
+.c-paragra p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+.con-result p {
+    color: #161623;
+    font-size: 25px;
+}
+
+.c-copy {
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+.btn-copiar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 900;
+    border: 1px solid #0A3871;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    top: -90px;
+    right: 4px;
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* 1300 */
+@media screen and (max-width: 1300px) {
+    .con-text {
+        top: 40px;
+    }
+
+    .c-text {
+        width: 1180px;
+        height: 350px;
+        font-size: 18px;
+    }
+
+    .alert {
+        top: 410px;
+        left: 470px;
+    }
+
+    .c-bottons {
+        top: 430px; 
+        left: 270px;
+    }
+
+    .btn-encriptar,
+    .btn-desencriptar {
+        width: 190px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .section2 {
+        top: 550px;
+        right: 390px;
+        width: 600px;
+        height: 700px;
+        margin-top: 20px;
+    }
+
+    .c-muneco {
+        position: absolute;
+        top: 50px;
+        left: 120px;
+    }
+
+    .c-paragra {
+        padding-top: 480px;
+    }
+
+    .c-copy {
+        position: absolute;
+        top: 690px;
+        left: 100px;
+        justify-content: center;
+    }
+}
+
+/* 1200 */
+@media screen and (max-width: 1200px) {
+    .c-text {
+        width: 1080px;
+    }
+
+    .section2 {
+        right: 280px;
+    }
+}
+
+/* 1100 */
+@media screen and (max-width: 1100px) {
+    .c-text {
+        width: 980px;
+    }
+
+    .c-bottons {
+        left: 190px;
+    }
+
+    .alert {
+        left: 390px;
+    }
+}
+
+/* 1000 */
+@media screen and (max-width: 1000px) {
+    .c-text {
+        width: 880px;
+    }
+
+    .c-bottons {
+        left: 160px;
+    }
+
+    .alert {
+        left: 360px;
+    }
+
+    .section2 {
+        right: 200px;
+    }
+}
+
+/* 900 */
+@media screen and (max-width: 900px) {
+    .c-text {
+        width: 780px;
+    }
+
+    .c-bottons {
+        left: 100px;
+    }
+
+    .alert {
+        left: 300px;
+    }
+
+    .section2 {
+        right: 150px;
+    }
+}
+
+/* 800 */
+@media screen and (max-width: 800px) {
+    .c-text {
+        width: 680px;
+    }
+
+    .c-bottons {
+        left: 50px;
+    }
+
+    .alert {
+        left: 250px;
+    }
+
+    .section2 {
+        right: 105px;
+    }
+}

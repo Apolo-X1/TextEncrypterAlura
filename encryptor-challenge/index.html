@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryptor</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/mu.svg">
+
+</head>
+
+<body>
+
+    <main>
+        <section class="section1">
+            <div class="con-text">
+                <textarea class="c-text" placeholder=" Write the text to encript..."></textarea>
+            </div>  
+
+            <div class="alert">
+                <img src="./img/alert.svg" alt="alert">
+                <p>only lowercase letters and no accents</p>
+            </div>
+
+            <div class="c-bottons">
+                <input type="button" class="btn-encriptar" value="Encript">
+                <input type="button" class="btn-desencriptar" value="Decrypted">
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="c-muneco">
+                <img src="./img/mu.svg" alt="muneco">
+            </div>
+            
+            <div class="c-paragra">
+                <h3>No message was found</h3>
+                <p>Enter the text you want to encrypt or <br> decrypt.</p>
+            </div>
+
+            <div class="c-copy">
+                <input type="button" class="btn-copiar" value="copy">
+            </div>
+
+            <div class="con-result">
+                <p class="result-t"></p>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/vanilla-tilt.js"></script>
+
+    <!-- card effect -->
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".section2"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+
+</body>
+
+</html>

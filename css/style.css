@@ -50,18 +50,8 @@ body {
 @keyframes words {
 
     0%,
-    50% {
-        content: "Encryptor";
-    }
-
-    51%,
-    80% {
-        content: "Made by David Guerra";
-    }
-
-    81%,
     100% {
-        content: "With HTML, CSS and JS";
+        content: "Encryptor";
     }
 }
 

@@ -8,7 +8,7 @@ body {
     background: #161623;
 }
 
-.header-text{
+.header-text {
     font-size: 30px;
     font-weight: 900px;
     min-width: 280px;
@@ -16,21 +16,21 @@ body {
     padding-left: 50px;
 }
 
-.header-text p{
+.header-text p {
     color: white;
 }
 
-.header-text span{
+.header-text span {
     position: relative;
 }
 
-.header-text span::before{
+.header-text span::before {
     content: "Encryptor";
     color: cyan;
     animation: words 20s infinite;
 }
 
-.header-text span::after{
+.header-text span::after {
     content: "";
     background-color: #161623;
     position: absolute;
@@ -41,35 +41,55 @@ body {
     animation: cursor .6s infinite, typing 20s steps(14) infinite;
 }
 
-@keyframes cursor{
-    to{
-        border-left: 2px solid  cyan;
+@keyframes cursor {
+    to {
+        border-left: 2px solid cyan;
     }
 }
 
-@keyframes words{
-    0%, 20%{
+@keyframes words {
+
+    0%,
+    50% {
         content: "Encryptor";
     }
-    21%, 40%{
-        content: "HMTL";
+
+    51%,
+    80% {
+        content: "Made by David Guerra";
     }
-    41%, 60%{
-        content: "CSS";
-    }
-    61%, 80%{
-        content: "and";
-    }
-    81%, 100%{
-        content: "JavaScript";
+
+    81%,
+    100% {
+        content: "With HTML, CSS and JS";
     }
 }
 
-@keyframes typing{
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+
+@keyframes typing {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
         width: 0;
     }
-    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
         width: calc(100% + 8px);
     }
 }
@@ -235,25 +255,30 @@ main {
     .con-text {
         top: 40px;
     }
+
     .c-text {
         width: 1180px;
         height: 350px;
         font-size: 18px;
     }
+
     .alert {
         top: 410px;
         left: 470px;
     }
+
     .c-bottons {
-        top: 430px; 
+        top: 430px;
         left: 270px;
     }
+
     .btn-encriptar,
     .btn-desencriptar {
         width: 190px;
         height: 40px;
         margin: 20px;
     }
+
     .section2 {
         top: 550px;
         right: 390px;
@@ -261,14 +286,17 @@ main {
         height: 700px;
         margin-top: 20px;
     }
+
     .c-muneco {
         position: absolute;
         top: 50px;
         left: 120px;
     }
+
     .c-paragra {
         padding-top: 480px;
     }
+
     .c-copy {
         position: absolute;
         top: 690px;
@@ -282,6 +310,7 @@ main {
     .c-text {
         width: 1080px;
     }
+
     .section2 {
         right: 280px;
     }
@@ -292,9 +321,11 @@ main {
     .c-text {
         width: 980px;
     }
+
     .c-bottons {
         left: 190px;
     }
+
     .alert {
         left: 390px;
     }
@@ -305,12 +336,15 @@ main {
     .c-text {
         width: 880px;
     }
+
     .c-bottons {
         left: 160px;
     }
+
     .alert {
         left: 360px;
     }
+
     .section2 {
         right: 200px;
     }
@@ -321,12 +355,15 @@ main {
     .c-text {
         width: 780px;
     }
+
     .c-bottons {
         left: 100px;
     }
+
     .alert {
         left: 300px;
     }
+
     .section2 {
         right: 150px;
     }
@@ -337,12 +374,15 @@ main {
     .c-text {
         width: 680px;
     }
+
     .c-bottons {
         left: 50px;
     }
+
     .alert {
         left: 250px;
     }
+
     .section2 {
         right: 105px;
     }
@@ -372,9 +412,10 @@ main {
 /* 625 */
 @media screen and (max-width: 625px) {
     .c-bottons {
-        top: 430px; 
+        top: 430px;
         left: 170px;
     }
+
     .section2 {
         top: 600px;
         left: 80px;
@@ -386,9 +427,11 @@ main {
     .alert {
         display: none;
     }
+
     .section2 {
         left: 130px;
     }
+
     .c-copy {
         left: 70px;
     }
@@ -399,12 +442,15 @@ main {
     .alert {
         display: none;
     }
+
     .c-muneco {
         display: none;
     }
+
     .c-paragra {
         padding-top: 300px;
     }
+
     .c-copy {
         left: 50px;
     }
@@ -415,6 +461,7 @@ main {
     .section2 {
         left: 170px;
     }
+
     .c-copy {
         left: 20px;
     }
@@ -426,6 +473,7 @@ main {
     .section2 {
         left: 190px;
     }
+
     .c-copy {
         left: 1px;
     }
@@ -444,6 +492,7 @@ main {
     .section2 {
         left: 240px;
     }
+
     .c-copy {
         right: 15px;
     }
@@ -454,6 +503,7 @@ main {
     .section2 {
         left: 260px;
     }
+
     .c-copy {
         right: 10px;
     }
